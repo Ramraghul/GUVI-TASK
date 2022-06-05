@@ -1,0 +1,35 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/89/19/qio6eM.jpg);
+}
+form{
+    /* margin:60px 60px; */
+    padding: 10px 40px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width:240px ;
+}
+button{
+    border: none;
+    background-color: #c13f3b;
+    width: 100%;
+    padding: 15px;
+    border-radius: 9px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+#dell{
+   width: 189px;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
