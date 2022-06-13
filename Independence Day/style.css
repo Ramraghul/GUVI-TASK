@@ -1,0 +1,9 @@
+#container{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+#text{
+    color: red;
+}
