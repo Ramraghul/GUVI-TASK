@@ -1,0 +1,22 @@
+video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 40rem;
+    height: 23rem;
+    width: 35rem;
+    backdrop-filter: blur(0.1px);
+    background: rgba(225, 225, 225, 0.1);
+    color: white;
+}
