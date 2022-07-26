@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+.card{
+    background-color: black;
+    border: 1px solid white;
+}
+#yellow{
+    color: rgb(207, 207, 21);
+}
+#head{
+    color: rgb(171, 8, 8);
+    text-transform: uppercase;
+}
+#title{
+    color: silver;
+}

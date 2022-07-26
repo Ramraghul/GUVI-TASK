@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(./image/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.content{
+    position:relative;
+    margin-left: 0.6rem;
+    height: 13rem;
+    width: 21rem;
+    background-color:transparent;
+    color:white;
+    padding: 20px;
+}
+.shadow{
+    position: relative;
+    margin: 100px;
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(0deg,#000,#262626);
+}
+.shadow:before,
+.shadow:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg,#00d1fb,#000000,#00d1fb,#000000,#00d1fb,#000000,#00d1fb,#000000,#00d1fb,#000000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index:-1 ;
+    animation: animate 20s linear infinite;
+}
+.shadow:after{
+    filter: blur(100px);
+}
+@keyframes animate {
+   0%{
+    background-position:  0 0;
+   }
+   50%{
+    background-position:  400% 0;
+   }
+   100%{
+    background-position:  1000% 0;
+   }     
+}
+
+h4{
+    color: #00d1fb;
+}
+h5{
+    color: rgb(255, 255, 255);
+}
+
+#button{
+    margin-left:7rem;
+    margin-top: 8rem;
+    position:relative;
+}
