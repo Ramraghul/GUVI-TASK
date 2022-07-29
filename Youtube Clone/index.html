@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./image/youtube.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Youtube</title>
+</head>
+
+<body class="bg-black">
+  <!--navbar -->
+  <nav class="navbar navbar-dark fixed-top p-1" id="color">
+    <div class="container-fluid">
+      <div class="nav p-1">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h5 class="navbar-brand pt-2 ps-2">
+          <img src="./image/youtube.png" alt="image" id="icon" />YouTube
+          <sup><small>IN</small></sup>
+        </h5>
+      </div>
+      <div class="nav" id="hight">
+        <div class="input-group">
+          <input type="text" id="input" placeholder="Search" />
+          <span class="input-group-text bg-black" id="basic-addon1"><button class="bg-black">
+              <img src="./image/search 1.png" id="mag" /></button></span>&nbsp;&nbsp;
+          <img src="./image/mic.png" id="mic" />
+        </div>
+      </div>
+      <div class="nav">
+        <img src="./image/video-creat.png" id="final" />
+        <img src="./image/bell.png" id="final" for="sub" />
+        <img src="./image/login.png" id="final" />
+      </div>
+
+      <!-- Side navebar -->
+      <div class="offcanvas offcanvas-start text-bg-dark bg-gradient" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header justify-content-between pt-3">
+          <button class="navbar-toggler" id="close" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <img src="./image/youtube.png" alt="image" id="icon" />YouTube
+            <sup><small>IN</small></sup>
+          </h5>
+        </div>
+
+        <!-- Icon and image click sidebar-->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1">
+            <li class="nav-item" id="gap">
+              <img src="./image/home.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/">Home</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/explore.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/feed/explore">Explore</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/shorts.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/shorts/yuKCiEsNKGs">Shorts</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/subscribe.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/feed/subscriptions">Subscriptions</a></label>
+            </li>
+            <hr />
+            <li class="nav-item" id="gap">
+              <img src="./image/library.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/feed/library" id="lib">Library</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/history.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/feed/history">History</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/your video.png" alt="image" id="icon1" />&nbsp; &nbsp;
+              <label id="lab1"><a
+                  href="https://studio.youtube.com/channel/UCWhBYMB9KZ7WiwwY5gXxD0Q/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D">Your
+                  video</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/Later.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/playlist?list=WL">Watch Later</a></label>
+            </li>
+            <li class="nav-item" id="gap">
+              <img src="./image/liked.png" alt="image" id="icon1" />&nbsp;
+              &nbsp;
+              <label id="lab1"><a href="https://www.youtube.com/playlist?list=LL">Liked videos</a></label>
+            </li>
+            <hr>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fixed side bar -->
+  <div class="side-bar">
+    <img src="./image/home.png" alt="image" class="icon2" />
+    <label class="text-white"><a href="https://www.youtube.com/">Home</a></label>
+    <img src="./image/explore.png" alt="image" class="icon2" />
+    <label class="text-white"><a href="https://www.youtube.com/feed/explore">Explore</a></label>
+    <img src="./image/shorts.png" alt="image" class="icon2" />
+    <label class="text-white"><a href="https://www.youtube.com/shorts/yuKCiEsNKGs">Shorts</a></label>
+    <img src="./image/subscribe.png" for="fix" class="icon2" id="sub" />
+    <label id="fix" class="text-white"><a href="https://www.youtube.com/feed/subscriptions">Subscriptions</a></label>
+    <img src="./image/library.png" alt="image" class="icon2" />
+    <label class="text-white"><a href="https://www.youtube.com/feed/library" id="lib">Library</a></label>
+  </div>
+
+  <!-- Buttons -->
+  <div class="filters">
+    <a href="https://www.youtube.com/" class="filter-options">All</a>
+    <a href="https://www.youtube.com/results?search_query=css" class="filter-options">Css</a>
+    <a href="https://www.youtube.com/results?search_query=python" class="filter-options">Python</a>
+    <a href="https://www.youtube.com/results?search_query=java" class="filter-options">Java</a>
+    <a href="https://www.youtube.com/results?search_query=HTML" class="filter-options">HTML</a>
+    <a href="https://www.youtube.com/results?search_query=Javascript" class="filter-options">Javascript</a>
+    <a href="https://www.youtube.com/results?search_query=c" class="filter-options">C</a>
+    <a href="https://www.youtube.com/results?search_query=c++" class="filter-options">C++</a>
+    <a href="https://www.youtube.com/results?search_query=Django" class="filter-options">Django</a>
+    <a href="https://www.youtube.com/results?search_query=Express Js" class="filter-options">Express JS</a>
+    <a href="https://www.youtube.com/results?search_query=Node Js" class="filter-options">Node JS</a>
+    <a href="https://www.youtube.com/results?search_query=Machine learning" class="filter-options">Machine Learning</a>
+    <a href="https://www.youtube.com/results?search_query=comedy" class="filter-options">Comedy</a>
+    <a href="https://www.youtube.com/results?search_query=game" class="filter-options">Game</a>
+    <a href="https://www.youtube.com/results?search_query=fun" class="filter-options">Fun</a>
+    <a href="https://www.youtube.com/results?search_query=cock" class="filter-options">Cock</a>
+    <a href="https://www.youtube.com/results?search_query=Train" class="filter-options">Train</a>
+    <a href="https://www.youtube.com/results?search_query=salary" class="filter-options">Salary</a>
+    <a href="https://www.youtube.com/results?search_query=final" class="filter-options">Final</a>
+  </div>
+
+  <!-- videos -->
+  <div class="video-container bg-black text-white">
+    <!-- <div class="video">
+    <img src="./image/test.jpg" class="thumbnail" alt="">
+    <div class="content">
+      <img src="./image/test.jpg" class="channel-icon" alt="">
+      <div class="info">
+        <h4 class="title">Youtube create by raghul</h4>
+        <p class="channel-name">Raghul @ co</p>
+      </div>
+    </div>
+  </div> -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+<script src="./script.js"></script>
+
+</html>
